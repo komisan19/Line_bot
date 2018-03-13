@@ -4,8 +4,12 @@ require "line/bot"
 def client
   @client ||= Line::Bot::Client.new { |config|
     config.channel_serct = "ac909a5b07f5e6c0cb4dbccfe4a853fd"
-    config.channel_token = "5lCvdOqglVDYfZM9xivTY/b6OaCyQxviDlSaXXMUvXDkC4kOiyy97mxO/6SVYeyrd2JHwEU6E7As8KjcqECq0FGx4T4qDsohMAdSj/m+q3Ubm+WVuazVPQYm8VZw1hkM1aUYCRHWCsrFpd3FM//CzAdB04t89/1O/w1cDnyilFU="
+    config.channel_token = "BfvFnpsYUE7eW4aIQ+rOchZro4UeWocnC4t3ttv/yKHd7KfZ24ce/CT5MKonxuQ0d2JHwEU6E7As8KjcqECq0FGx4T4qDsohMAdSj/m+q3UrypoAuc08DS9htvpdD64KAXwpPTeFSyNUG3GbBPxsIgdB04t89/1O/w1cDnyilFU="
   }
+end
+
+get '/' do 
+  'hello'
 end
 
 post '/callback' do
