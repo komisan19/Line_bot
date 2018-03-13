@@ -1,0 +1,4 @@
+language: ruby
+
+bundler_args: --deployment
+cache: bundler
