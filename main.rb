@@ -3,8 +3,8 @@ require "line/bot"
 
 def client
   @client ||= Line::Bot::Client.new { |config|
-    config.channel_serct = "ac909a5b07f5e6c0cb4dbccfe4a853fd"
-    config.channel_token = "BfvFnpsYUE7eW4aIQ+rOchZro4UeWocnC4t3ttv/yKHd7KfZ24ce/CT5MKonxuQ0d2JHwEU6E7As8KjcqECq0FGx4T4qDsohMAdSj/m+q3UrypoAuc08DS9htvpdD64KAXwpPTeFSyNUG3GbBPxsIgdB04t89/1O/w1cDnyilFU="
+    config.channel_serct = "78b14159437a3988cac0a300acbff5ad"
+    config.channel_token = "NqN/IUk8abjMaYgG+LPkSMu6l2uBcAxWzDt/2iuGv6tb5/VR579RjTGHbynlPTI7JJ+7V2nW7pYZCRc0Tk9djCzDOrBWNmcg8YsDAeczW2OhSji86m9lSLYmaIQ7mrpVBAI/VgYgAmnfqKjxvLkzkQdB04t89/1O/w1cDnyilFU="
   }
 end
 
